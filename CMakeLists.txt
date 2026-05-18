@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 include (FetchContent)
 
 FetchContent_Declare(MAGE
-  GIT_REPOSITORY https://github.com/miguelpafume/MAGE-Engine.get_directory_property
-  GIT_TAG 0.1.0
+  GIT_REPOSITORY https://github.com/miguelpafume/MAGE-Engine.git
+  GIT_TAG v0.1.2
 )
 
 FetchContent_MakeAvailable(MAGE)
